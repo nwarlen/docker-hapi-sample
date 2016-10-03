@@ -1,0 +1,25 @@
+{
+  "name": "docker-hapi-sample",
+  "version": "1.0.0",
+  "description": "Sample hapi server running in docker container",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwarlen/docker-hapi-sample.git"
+  },
+  "author": "Nick Warlen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwarlen/docker-hapi-sample/issues"
+  },
+  "homepage": "https://github.com/nwarlen/docker-hapi-sample#readme",
+  "dependencies": {
+    "hapi": "^15.1.1",
+    "hapi-swagger": "^7.2.0",
+    "inert": "^4.0.2",
+    "vision": "^4.1.0"
+  }
+}
